@@ -1,0 +1,15 @@
+{
+  "name": "node-embed-serial-api",
+  "version": "0.0.1",
+  "main": "src/lib/API.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sitebase/node-embed-serial-api.git"
+  },
+  "scripts": {
+    "test": "grunt mochaTest"
+  },
+  "dependencies": {
+    "serialport": "latest"
+  }
+}
