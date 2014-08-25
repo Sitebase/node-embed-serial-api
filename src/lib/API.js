@@ -52,7 +52,7 @@ API.prototype.connect = function( path )
 					
 					// If we receive a YO from the embedded device the connection is ok
 					// and the prototypes can start reading an writing to the serial connection
-					if( result === 'YO' ) {
+					if( result === 'YO' && self.connection === null ) {
 						self.connection = connection;
 						self.emit('ready');
 						return;
