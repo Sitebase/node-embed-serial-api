@@ -57,6 +57,7 @@ API.prototype.connect = function( path )
 						self.emit('ready');
 						return;
 					}
+					
 
 					// Digital read triggered by interrup
 					if( result.substring(0, 3) === "i d" ) {
